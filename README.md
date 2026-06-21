@@ -115,7 +115,7 @@ Prodesk-IT/
 
 
 
-### Services & Footer
+### Performance & Accessibility
 <img width="1908" height="967" alt="Screenshot 2026-06-21 090411" src="https://github.com/user-attachments/assets/d41dc2df-01ef-4ef4-acc5-ca3e554958c8" />
 
 
