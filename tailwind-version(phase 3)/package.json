@@ -1,0 +1,13 @@
+{
+  "name": "prodesk-it-phase3",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "npx @tailwindcss/cli -i ./input.css -o ./output.css --minify",
+    "watch": "npx @tailwindcss/cli -i ./input.css -o ./output.css --watch"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.1",
+    "tailwindcss": "^4.3.1"
+  }
+}

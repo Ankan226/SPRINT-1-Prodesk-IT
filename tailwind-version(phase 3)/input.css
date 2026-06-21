@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* GLOBAL STYLES */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Inter, system-ui, sans-serif;
+}
+
+/* CUSTOM COMPONENTS */
+
+@layer components {
+
+  .glass-navbar {
+    @apply bg-white/20 dark:bg-slate-900/20 backdrop-blur-xl border-b border-white/20;
+  }
+
+  .section-title {
+    @apply text-4xl md:text-5xl font-bold text-center mb-16;
+  }
+
+  .primary-btn {
+    @apply inline-block bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-xl font-semibold shadow-lg hover:-translate-y-1 hover:scale-105 transition-all duration-300;
+  }
+
+  .service-card {
+    @apply bg-white dark:bg-slate-900 p-8 rounded-3xl shadow-lg hover:shadow-2xl hover:-translate-y-3 transition-all duration-300;
+  }
+}
+
+/* ACCESSIBILITY */
+
+:focus-visible {
+  outline: 3px solid #2563eb;
+  outline-offset: 4px;
+}
+
+/* SCROLLBAR */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #e2e8f0;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2563eb;
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #1d4ed8;
+}
+
+/* IMAGE OPTIMIZATION */
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* SELECTION COLOR */
+
+::selection {
+  background: #2563eb;
+  color: white;
+}

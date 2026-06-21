@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Prodesk IT</title>
+
+  <meta name="description"
+    content="Prodesk IT helps businesses grow through Web Development, SEO Optimization and Digital Marketing.">
+
+  <meta name="keywords" content="Web Development, SEO, Marketing, Digital Agency, Prodesk IT">
+
+  <meta name="author" content="Prodesk IT">
+
+  <meta name="theme-color" content="#2563eb">
+
+  <meta property="og:title" content="Prodesk IT">
+  <meta property="og:description" content="We Build Digital Experiences">
+  <meta property="og:type" content="website">
+  
+  <meta name="robots" content="index,follow">
+  
+  <link rel="canonical" href="/">
+  
+  <meta property="og:site_name" content="Prodesk IT">
+  
+  <meta property="og:locale" content="en_US">
+
+  <link rel="preload" href="./assets/hero-image.webp" as="image">
+
+  <link rel="preload" href="./output.css" as="style">
+  <link rel="stylesheet" href="./output.css">
+</head>
+
+<body class="bg-slate-50 text-slate-900 dark:bg-slate-950 dark:text-white transition-all duration-300">
+
+  <!-- NAVBAR -->
+
+<nav class="sticky top-0 z-50
+bg-white/40
+dark:bg-slate-900/40
+backdrop-blur-2xl
+border border-white/30
+shadow-lg">
+
+    <div class="max-w-7xl mx-auto px-6 py-4">
+
+      <div class="flex items-center justify-between">
+
+        <!-- Logo -->
+
+        <div class="flex items-center gap-3">
+
+          <img src="./assets/logo.webp" alt="Prodesk IT Logo" width="50" height="50" class="rounded-lg">
+
+          <span class="font-bold text-xl">
+            Prodesk IT
+          </span>
+
+        </div>
+
+        <!-- Desktop Menu -->
+
+        <ul class="hidden md:flex items-center gap-8 font-medium">
+
+          <li>
+            <a href="#home" class="hover:text-blue-600 transition">
+              Home
+            </a>
+          </li>
+
+          <li>
+            <a href="#about" class="hover:text-blue-600 transition">
+              About
+            </a>
+          </li>
+
+          <li>
+            <a href="#services" class="hover:text-blue-600 transition">
+              Services
+            </a>
+          </li>
+
+          <li>
+            <a href="#contact" class="hover:text-blue-600 transition">
+              Contact
+            </a>
+          </li>
+
+          <li>
+
+            <button id="themeToggle" aria-label="Toggle Dark Mode" class="text-xl hover:scale-110 transition">
+
+              🌙
+
+            </button>
+
+          </li>
+
+        </ul>
+
+        <!-- Mobile Buttons -->
+
+        <div class="flex items-center gap-3 md:hidden">
+
+          <button id="themeToggleMobile" aria-label="Toggle Dark Mode" class="text-xl">
+
+            🌙
+
+          </button>
+
+          <button id="hamburger" aria-label="Open navigation menu" aria-expanded="false" class="text-3xl">
+
+            ☰
+
+          </button>
+
+        </div>
+
+      </div>
+
+      <!-- Mobile Menu -->
+
+      <div id="mobileMenu" class="hidden md:hidden mt-4">
+
+        <ul class="flex flex-col gap-4 font-medium">
+
+          <li>
+            <a href="#home">Home</a>
+          </li>
+
+          <li>
+            <a href="#about">About</a>
+          </li>
+
+          <li>
+            <a href="#services">Services</a>
+          </li>
+
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+  </nav>
+
+  <!-- HERO -->
+<main>
+  <section id="home" class="min-h-screen flex items-center">
+
+    <div class="max-w-7xl mx-auto px-6 py-20 grid md:grid-cols-2 gap-12 items-center">
+
+      <div>
+
+        <h1 class="text-5xl md:text-6xl font-extrabold leading-tight mb-6">
+
+          We Build
+
+          <span class="text-blue-600">
+            Digital Experiences
+          </span>
+
+        </h1>
+
+        <p class="text-lg text-slate-600 dark:text-slate-300 mb-8">
+
+          Accelerate business growth with modern web development,
+          SEO optimization and digital marketing strategies.
+
+        </p>
+
+        <a href="#services"
+          class="inline-block bg-blue-600 text-white px-8 py-4 rounded-xl font-semibold shadow-lg hover:-translate-y-1 hover:scale-105 hover:bg-blue-700 transition-all duration-300">
+
+          Get Started
+
+        </a>
+
+      </div>
+
+      <div>
+
+        <img src="./assets/hero-image.webp" alt="Digital Marketing Illustration" width="800" height="600"
+          loading="eager" fetchpriority="high" decoding="async" class="rounded-3xl shadow-2xl w-full object-cover">
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- ABOUT -->
+
+  <section id="about" class="py-24 bg-white dark:bg-slate-900">
+
+    <div class="max-w-4xl mx-auto px-6 text-center">
+
+      <h2 class="text-4xl font-bold mb-8">
+
+        About Us
+
+      </h2>
+
+      <p class="text-lg text-slate-600 dark:text-slate-300 leading-relaxed">
+
+        Prodesk IT helps businesses build strong digital identities
+        through responsive websites, SEO optimization and modern
+        marketing strategies.
+
+      </p>
+
+    </div>
+
+  </section>
+
+  <!-- SERVICES -->
+
+  <section id="services" class="py-24">
+
+    <div class="max-w-7xl mx-auto px-6">
+
+      <h2 class="text-4xl font-bold text-center mb-16">
+
+        Our Services
+
+      </h2>
+
+      <div class="grid md:grid-cols-3 gap-8">
+
+        <div
+          class="bg-white dark:bg-slate-900 p-8 rounded-3xl shadow-lg hover:-translate-y-3 hover:shadow-2xl transition-all duration-300">
+
+          <h3 class="text-2xl font-bold mb-4">
+
+            SEO Optimization
+
+          </h3>
+
+          <p>
+            Improve rankings and drive organic traffic.
+          </p>
+
+        </div>
+
+        <div
+          class="bg-white dark:bg-slate-900 p-8 rounded-3xl shadow-lg hover:-translate-y-3 hover:shadow-2xl transition-all duration-300">
+
+          <h3 class="text-2xl font-bold mb-4">
+
+            Web Development
+
+          </h3>
+
+          <p>
+            Build fast, scalable and responsive websites.
+          </p>
+
+        </div>
+
+        <div
+          class="bg-white dark:bg-slate-900 p-8 rounded-3xl shadow-lg hover:-translate-y-3 hover:shadow-2xl transition-all duration-300">
+
+          <h3 class="text-2xl font-bold mb-4">
+
+            Digital Marketing
+
+          </h3>
+
+          <p>
+            Maximize engagement and conversions.
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+  </main>
+
+  <!-- FOOTER -->
+
+  <footer id="contact" class="py-10 border-t border-slate-200 dark:border-slate-800">
+
+    <div class="max-w-7xl mx-auto px-6 text-center">
+
+      <p class="mb-4">
+        © 2026 Prodesk IT. All Rights Reserved.
+      </p>
+
+      <div class="flex justify-center gap-6">
+
+        <a href="https://prodesk.in/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+          Facebook
+        </a>
+        
+        
+        <a href="https://www.linkedin.com/company/prodesk-it/?originalSubdomain=in" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          LinkedIn
+        </a>
+        
+        <a href="https://prodesk.in/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+          Instagram
+        </a>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
