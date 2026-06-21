@@ -104,16 +104,13 @@ Prodesk-IT/
 
 ## Screenshot
 
+
 ### Hero Section
-![Hero Section](assets/live-interface.png)
-
-### Services & Footer
-![Services and Footer](assets/live-lowerface.png)
-
-
 <img width="1912" height="1017" alt="live-interface" src="https://github.com/user-attachments/assets/afddc9f4-14ba-4e41-96ab-124b0627fdc0" />
 
 
+
+### Services & Footer
 <img width="1905" height="1017" alt="live-lowerface" src="https://github.com/user-attachments/assets/284b7b40-8d00-4421-85ce-2ada3dd56274" />
 
 
