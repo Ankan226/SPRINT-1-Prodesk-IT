@@ -111,6 +111,10 @@ Prodesk-IT/
 ![Services and Footer](assets/live-lowerface.png)
 
 
+<img width="1912" height="1017" alt="live-interface" src="https://github.com/user-attachments/assets/afddc9f4-14ba-4e41-96ab-124b0627fdc0" />
+
+
+
 ## Assignment Deliverables
 
 * Responsive Landing Page
