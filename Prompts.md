@@ -1,21 +1,3 @@
-# Prompts Log
-
-This file records AI prompts and responses used during the development of the Prodesk IT Landing Page Sprint.
-
-Format: Date | Tool/Model | Prompt Summary | Notes / Purpose
-
-2026-06-20 | GPT-5 mini | "Generate a responsive landing page HTML/CSS structure using Flexbox/Grid for Navbar, Hero, Services (3 cards), and Footer. Include a mobile hamburger layout and accessible markup." | Initial scaffold for Phase 1 Base MVP.
-
-2026-06-20 | GPT-5 mini | "Add dark/light theme toggle using vanilla JS that toggles a class on <body> and persists preference in localStorage." | Phase 2 Theme Controller.
-
-2026-06-20 | GPT-5 mini | "Provide CSS for hover micro-interactions on buttons and z-axis lifting for service cards; implement sticky navbar styles." | Phase 2 micro-interactions and sticky nav.
-
-2026-06-20 | GPT-5 mini | "Refactor CSS to Tailwind utility classes and provide migration notes." | Phase 3 Tailwind migration (stretch).
-
-_Notes:_ Be sure to include full attribution for any third-party code or assets used. All prompts and AI-assisted outputs were reviewed and adapted by the developer.
-
--- End of Prompts Log --
-
 # AI Prompts Used During Development
 
 This file documents the AI prompts used during the development process.
